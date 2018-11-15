@@ -33,7 +33,7 @@ js中访问的url`/api/test/`：
 
 html模板的输出：
 
-![home](./images/\home.png)
+![home](./images/home.png)
 
 提交表单后显示表格：
 
