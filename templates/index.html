@@ -1,0 +1,27 @@
+<html>
+<head>
+    <link rel="stylesheet" href="static/css/main.css"/>
+    <link rel="icon" href="static/favicon.ico"/>
+</head>
+<body>
+    <div id="image">
+        <img src="static/images/logo.png" height="100%" width="100%"/>
+    </div>
+
+    <div>
+        <p class="name">Welcome, {{.Name}}</p>
+        <p class="content">Today is {{.Day}}</p>
+    </div>
+
+    <div id="the_form">
+        <form method="post">
+            <p>Username:</p>
+            <input type="text" name="username"><br/>
+            <p>Password:</p>
+            <input type="password" name="password"><br/>
+            <input type="submit" value="登录" id="submit">
+        </form>
+    </div>
+    
+</body>
+</html>

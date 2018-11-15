@@ -1,0 +1,23 @@
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+#image{
+    margin:auto;
+    height:100px;
+    width:80px;
+}
+
+#submit {
+    margin-top: 20px;
+    border: none;
+    background-color: brown;
+    height:40px;
+    width:80px;
+    color: white;
+}
